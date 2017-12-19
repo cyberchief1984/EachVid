@@ -1,6 +1,6 @@
 // ==UserScript==
 // @description Redirects Youtube URLs to EachVideo URLs
-// @name EachVideoREDIR
+// @name EachVideoRedirect
 // @include http://www.youtube.com/*
 // @include https://www.youtube.com/*
 // @version 0.1.0
