@@ -1,6 +1,6 @@
 // ==UserScript==
-// @description Redirects Youtube URLs to EachVideo URLs
-// @name EachVideoRedirect
+// @description Redirects Youtube URLs to HookTube URLs
+// @name HookTubeRedirect
 // @include http://www.youtube.com/*
 // @include https://www.youtube.com/*
 // @version 0.1.0
@@ -39,7 +39,7 @@ function replace_yt(str) {
     yt_list = yt_list.concat(urls_list("www.youtube.com/watch"));
 
     yt_list.forEach((b) => {
-        str = replace_beginning(str, b, "https://eachvideo.com/watch");
+        str = replace_beginning(str, b, "https:/hooktube.com/watch");
     });
 
     return str;
